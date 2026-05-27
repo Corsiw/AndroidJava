@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lab3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="view_holder_checkbox_title">Watched</string>
+    <string name="year_hint">Year</string>
+    <string name="genre_hint">Genre</string>
+    <string name="title_hint">Title</string>
+    <string name="save_button_text">Save</string>
+    <string name="delete_button_title">Delete</string>
+    <string name="update_button_title">Update</string>
+    <string name="plus_contentDescription">Plus</string>
+</resources>

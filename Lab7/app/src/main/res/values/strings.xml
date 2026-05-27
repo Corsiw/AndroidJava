@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Lab7</string>
+    <string name="button_stop_text">Stop</string>
+    <string name="button_start_text">Start</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Lab2</string>
+    <string name="app_name_text">Лабораторная 2</string>
+    <string name="plain_text_hint">Введите сообщение</string>
+    <string name="button1_text">Отправить Activity</string>
+    <string name="button2_text">Выбрать для отправки</string>
+    <string name="button3_text">Открыть в браузере</string>
+    <string name="buttonBack_text">Назад</string>
+    <string name="chooser_title">Поделиться через</string>
+</resources>

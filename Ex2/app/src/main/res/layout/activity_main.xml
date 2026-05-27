@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:id="@+id/editText"
+            android:hint="Введите текст"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+            android:id="@+id/btnPickImage"
+            android:text="Выбрать изображение"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+    
+    <Button
+            android:id="@+id/btnExplicit"
+            android:text="Отправить (явный интент)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+            android:id="@+id/btnImplicit"
+            android:text="Отправить (неявный интент)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+            android:id="@+id/btnImplicitExternal"
+            android:text="Отправить во внешнее приложение"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"/>
+
+</LinearLayout>

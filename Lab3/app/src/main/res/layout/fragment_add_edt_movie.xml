@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+            android:autofillHints=""
+            android:inputType="text"
+            android:id="@+id/inputTitle"
+            android:hint="@string/title_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:autofillHints=""
+            android:inputType="text"
+            android:id="@+id/inputGenre"
+            android:hint="@string/genre_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <EditText
+            android:id="@+id/inputYear"
+            android:hint="@string/year_hint"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RatingBar
+            android:id="@+id/inputRating"
+            android:numStars="5"
+            android:stepSize="0.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <CheckBox
+            android:id="@+id/inputWatched"
+            android:text="@string/view_holder_checkbox_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <Button
+            android:id="@+id/saveButton"
+            android:text="@string/save_button_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

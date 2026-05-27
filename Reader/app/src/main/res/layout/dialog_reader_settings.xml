@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+    <!-- Размер текста -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Размер текста"
+            android:textSize="18sp" />
+
+    <SeekBar
+            android:id="@+id/sbTextSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="52"
+            android:progress="18"
+            android:layout_marginTop="8dp" />
+
+    <!-- Шрифт -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Шрифт"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+
+    <RadioGroup
+            android:id="@+id/rgFonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/rbSerif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Serif" />
+
+        <RadioButton
+                android:id="@+id/rbSans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sans-Serif" />
+    </RadioGroup>
+
+    <!-- Цветовые темы -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Тема оформления"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp" />
+
+    <RadioGroup
+            android:id="@+id/rgThemes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+        <RadioButton
+                android:id="@+id/rbWhite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Светлая" />
+
+        <RadioButton
+                android:id="@+id/rbSepia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Сепия" />
+
+        <RadioButton
+                android:id="@+id/rbNight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Темная" />
+    </RadioGroup>
+</LinearLayout>

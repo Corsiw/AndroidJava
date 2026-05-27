@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Название задачи"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+        <EditText
+                android:id="@+id/detailsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите название..."
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+        <!-- Описание задачи -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Описание"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+        <EditText
+                android:id="@+id/detailsDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Добавьте детали..."
+                android:inputType="textMultiLine"
+                android:gravity="top"
+                android:minLines="3"
+                android:layout_marginBottom="16dp" />
+
+        <!-- Выбор приоритета -->
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Приоритет"
+                android:textSize="14sp"
+                android:textColor="@android:color/darker_gray" />
+
+        <Spinner
+                android:id="@+id/detailsPriority"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="16dp"
+                android:minHeight="48dp" />
+        
+        <CheckBox
+                android:id="@+id/detailsCompleted"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Задача выполнена"
+                android:textSize="16sp"
+                android:layout_marginBottom="24dp" />
+        
+        <Button
+                android:id="@+id/updateButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Сохранить изменения"
+                android:layout_marginTop="16dp" />
+
+        <Button
+                android:id="@+id/deleteButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:textColor="@android:color/holo_red_dark"
+                android:text="Удалить задачу"
+                android:layout_marginTop="8dp" />
+
+    </LinearLayout>
+</ScrollView>

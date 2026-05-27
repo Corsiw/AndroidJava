@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name_string">Weather</string>
+    <string name="fragment_today_button_text">Today</string>
+    <string name="fragment_week_button_text">Week</string>
+    <string name="fragment_about_button_text">About</string>
+</resources>

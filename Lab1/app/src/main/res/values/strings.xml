@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Lab1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name_string">Weather</string>
+    <string name="fragment_today_button_text">Today</string>
+    <string name="fragment_week_button_text">Week</string>
+    <string name="fragment_about_button_text">About</string>
+    <string name="city_placeholder">Moscow</string>
+    <string name="temp_placeholder">+18°C</string>
+    <string name="sun_tag_placeholder">Sunny</string>
+    <string name="back_button_string">Back</string>
+    <string name="monday_placeholder">Mn +17°C Cloudy</string>
+    <string name="tuesday_placeholder">Tu +20°C Sunny</string>
+    <string name="wednesday_placeholder">Wn +16°C Rainy</string>
+    <string name="thursday_placeholder">Th +19°C Party cloudy</string>
+    <string name="friday_placeholder">Fr +15°C Rainy</string>
+    <string name="saturday_placeholder">St +13°C Rainy</string>
+    <string name="sunday_placeholder">Sn +17°C Cloudy</string>
+    <string name="program_author">Author: Terekhov Dmitry</string>
+    <string name="development_year">Year: 2026</string>
+    <string name="about_text">Simple multy-fragment weather app with placeholders</string>
+</resources>

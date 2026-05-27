@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.example.lab5.SortView
+            android:id="@+id/sortView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    <Spinner
+
+            android:id="@+id/algorithmSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp" />
+
+    <Button
+            android:id="@+id/generateButton"
+            android:text="@string/generate_array_button_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/sortButton"
+            android:text="@string/start_sorting_button_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <Button
+            android:id="@+id/cancelButton"
+            android:text="@string/cancel_sorting_button_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/speedLabel"
+            android:text="@string/sorting_speed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    <SeekBar
+            android:id="@+id/speedSeekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="200"
+            android:progress="50"/>
+</LinearLayout>

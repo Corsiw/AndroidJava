@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_array_error_text">Сначала сгенерируйте массив</string>
+    <string name="cancel_sorting_button_text">Cancel Sorting</string>
+    <string name="sort_not_started_error_message">Сортировка не запущена</string>
+    <string name="sorting_running_error_message">Сортировка уже выполняется</string>
+    <string name="sorting_speed_text">Sorting speed</string>
+</resources>

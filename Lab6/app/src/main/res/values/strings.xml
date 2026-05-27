@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Lab6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button11_text">Send hello to 2nd Fragment</string>
+    <string name="button12_text">Send hello to Activity</string>
+    <string name="button21_text">Send hello to 1st Fragment</string>
+    <string name="button22_text">Send hello to Activity</string>
+</resources>

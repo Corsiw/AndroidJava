@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="last_update_text">Last update: %s</string>
+    <string name="title_hint_text">Title</string>
+    <string name="body_hint_text">Body</string>
+    <string name="send_post_button_text">Send POST</string>
+    <string name="response_will_appear_here_text">Response will appear here</string>
+    <string name="user_id_hint">User Id</string>
+</resources>

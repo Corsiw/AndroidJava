@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <EditText
+                android:id="@+id/detailsTitle"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:hint="@string/title_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:id="@+id/detailsGenre"
+                android:hint="@string/genre_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <EditText
+                android:id="@+id/detailsYear"
+                android:hint="@string/year_hint"
+                android:inputType="number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <RatingBar
+                android:id="@+id/detailsRating"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <CheckBox
+                android:id="@+id/detailsWatched"
+                android:text="@string/view_holder_checkbox_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        <Button
+                android:id="@+id/updateButton"
+                android:text="@string/update_button_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp" />
+
+        <Button
+                android:id="@+id/deleteButton"
+                android:text="@string/delete_button_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
